@@ -7,14 +7,17 @@
 
 > **Warning:** **Python 3.5 is not supported!**.
 
- 1. Create a virtual environment with Python 3.6: 
+ 1. Clone this repo
+ `git clone https://github.com/padfoot18/Chatbot.git`
+
+ 2. Create a virtual environment with Python 3.6: 
  `virtualenv env`
  
- 2. Activate the environment:
+ 3. Activate the environment:
  	- **Linux source:** `./env/bin/activate`
 	- **Windows:** `.\env\Scripts\activate.bat`
 		 
- 3. Install the following packages inside this virtual environment:
+ 4. Install the following packages inside this virtual environment:
 	 1. Tensorflow (version -- 1.10.0)
 			 `pip install tensorflow==1.10.0` 
 	 2. DeepPavlov
