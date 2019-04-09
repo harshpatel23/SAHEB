@@ -23,3 +23,5 @@
 	 2. DeepPavlov
 			 `pip install deeppavlov`
 
+5. Start the server
+	`python app2.py`
