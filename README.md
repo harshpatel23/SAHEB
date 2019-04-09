@@ -11,10 +11,10 @@
  `git clone https://github.com/padfoot18/Chatbot.git`
 
  2. Create a virtual environment with Python 3.6: 
- `virtualenv env`
+ `python3 -m virtualenv venv`
  
  3. Activate the environment:
- 	- **Linux source:** `./env/bin/activate`
+ 	- **Linux source:** `source venv/bin/activate`
 	- **Windows:** `.\env\Scripts\activate.bat`
 		 
  4. Install the following packages inside this virtual environment:
