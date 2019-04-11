@@ -1,4 +1,5 @@
-# Chatbot API
+# SAHEB
+### (Somaiya Admission Help and Enquiry Bot)  
 
 ## Installation steps:
 > **Note:** Currently we support **Linux** and **Windows** platforms and **Python 3.6**.
@@ -14,14 +15,26 @@
  `python3 -m virtualenv venv`
  
  3. Activate the environment:
- 	- **Linux source:** `source venv/bin/activate`
+ 	- **Linux:** `source env/bin/activate`
 	- **Windows:** `.\env\Scripts\activate.bat`
 		 
- 4. Install the following packages inside this virtual environment:
-	 1. Tensorflow (version -- 1.10.0)
-			 `pip install tensorflow==1.10.0` 
-	 2. DeepPavlov
-			 `pip install deeppavlov`
-
-5. Start the server
-	`python app2.py`
+ 4. Install the required packages from `requirements.txt` inside this virtual environment:
+	 `pip install -r requirments.txt`
+	 
+ 5. Install Git Large File Storage from `https://git-lfs.github.com/`
+ 
+ 6. Download lstm and glove model:
+    `git lfs pull`
+    
+## Usage Instructions:
+ 1. Activate the environment:
+ 	- **Linux:** `source env/bin/activate`
+	- **Windows:** `.\env\Scripts\activate.bat`
+	
+ 2. Run app2.py script:
+    `python app2.py`
+ 
+ 3. For chat bot, open `popup.html` in any browser
+ 
+ 4. For admin site, open `http://localhost:5000/` in any browser
+	 
